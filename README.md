@@ -1,1 +1,12 @@
 # CS320
+
+Reflection
+
+How can I ensure that my code, program, or software is functional and secure?
+To ensure that my code is both functional and secure, I adopt a multi-faceted approach. Functionality is maintained through thorough unit testing, where I apply various testing strategies to cover as many scenarios as possible, including edge cases and exception handling. Using JUnit 5, for example, I’ve tested all core operations like adding, updating, and deleting data across services such as Contact, Task, and Appointment. In terms of security, I ensure that the code adheres to best practices such as validating inputs, handling exceptions gracefully, and avoiding vulnerabilities like injection attacks or improper error handling. For example, by ensuring that duplicate or invalid IDs cannot be added to the system, I enhance both the reliability and security of the software.
+
+How do I interpret user needs and incorporate them into a program?
+Understanding user needs involves breaking down requirements into functional tasks and aligning those tasks with the expected outcomes of the software. By reviewing project specifications and user stories, I’m able to interpret what the end user requires. This process involves collaboration with stakeholders or analyzing the given requirements in the context of user interaction. I then map these needs into concrete software features. For instance, if a user requires a service to manage appointments, I ensure that the software allows for easy addition, retrieval, updating, and deletion of appointments, as well as handling cases where appointments conflict or IDs are duplicated.
+
+How do I approach designing software?
+When designing software, I start with the foundational architecture. I think in terms of modularity, ensuring that each component of the system, such as services managing tasks, contacts, or appointments, is designed independently. This modular approach allows for easy maintenance, updates, and scalability. I also consider the user experience and how they will interact with the system. This is reflected in the design of clear and concise methods for handling user actions, such as adding or updating data. From there, I focus on code maintainability and efficiency, writing clean, well-documented code that is both readable and scalable. I also ensure that security considerations are embedded in the design from the start, to avoid potential vulnerabilities later on.
